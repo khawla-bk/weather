@@ -1,0 +1,41 @@
+.weathercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+    padding: 3em;
+    box-shadow: 2px 2px 20px -10px white;
+    color: white;
+    border-radius: 6px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-temp {
+    font-size: 35px;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 1px;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+}
+
+img {
+    filter: drop-shadow(1px 1px 10px white);
+}
